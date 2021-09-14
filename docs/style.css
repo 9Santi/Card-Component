@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+    color: white;
+    
+}
+
+.container {
+    transform: translateY(50%);
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 20px;
+      
+}
+
+
+.text-title {
+    font-family: 'Inter', sans-serif; 
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+.purple {
+    color: hsl(277, 64%, 61%);
+}
+
+.text {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+
+}
+
+.box-img {
+    background-image: url(./images/image-header-desktop.jpg);
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    border-radius: 0px 20px 20px 0px;
+    filter: sepia(1) saturate(3) hue-rotate(230deg) ;
+}
+
+
+.stats-numb {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 100%);
+    
+}
+
+.neutral {
+    font-family: 'Lexend Deca', sans-serif;
+    text-transform: uppercase;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-weight: 400;   
+}
+
+@media only screen and (max-width: 770px) {
+    .box-img {
+        background-image: url(./images/image-header-mobile.jpg);
+        height: 200px;
+        width: auto;
+        border-radius: 20px 20px 0px 0px;
+
+    }
+    
+    .plan-box {
+        flex-direction: column-reverse;
+        
+    }
+
+    .box-text {
+        width: auto;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+
+    
+
+
+
+
+
+/*font-family: 'Inter', sans-serif;
+font-family: 'Lexend Deca', sans-serif; */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+
